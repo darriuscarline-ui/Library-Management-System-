@@ -30,3 +30,14 @@ Place book.py and Library_manager.py in the same folder
 Open the project folder in VS Code and open the terminal.
 Run the program using python with file Library_manager.py
 Follow the menu prompts to add, list, or search for books.
+
+Object-Oriented Programmiing
+
+The Book class acts as a blueprint for creating book objects. Each book object contains its own title, author, and ISBN. 
+The __init__ method uses the information for each book, while the __str__ method provides a readable representation when a book object is printed.
+The get_details method returns the book's information as a dictionary
+
+Modular Design
+
+The project is separated into two python modules. The book class is stored in book.py while the main library management functionality is stored in Library_manager.py
+Separating the program into modules makes the code easier to organize, maintain, and reuse.  
