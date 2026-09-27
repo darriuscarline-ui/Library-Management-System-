@@ -48,3 +48,17 @@ The Library_manager.py file has 3 main functions
 1. add_book(library) which adds a new book object to the library
 2. list_books(library) displays all the books in the library
 3. find_books(library, query) searches for a book by title or author
+
+Example Output
+
+Library Menu
+1. Add a new book
+2. List all books
+3. Find a book
+4. Exit
+
+Enter your choice: 1
+Enter the book title: A Song of Ice and Fire
+Enter the author: George R.R. Martin
+Enter the ISBN: 9780553386790
+Book added successfully!
