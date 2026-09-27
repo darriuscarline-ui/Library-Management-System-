@@ -40,4 +40,11 @@ The get_details method returns the book's information as a dictionary
 Modular Design
 
 The project is separated into two python modules. The book class is stored in book.py while the main library management functionality is stored in Library_manager.py
-Separating the program into modules makes the code easier to organize, maintain, and reuse.  
+Separating the program into modules makes the code easier to organize, maintain, and reuse.
+
+Functions 
+
+The Library_manager.py file has 3 main functions 
+1. add_book(library) which adds a new book object to the library
+2. list_books(library) displays all the books in the library
+3. find_books(library, query) searches for a book by title or author
